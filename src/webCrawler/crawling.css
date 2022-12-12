@@ -1,0 +1,77 @@
+.main-container{
+    display: grid;
+    justify-content: center;
+}
+
+.main-container div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#results{
+    display: grid;
+    justify-content: center;
+}
+
+#results div{
+    display: grid;
+    justify-content: center;
+}
+
+.title-results {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.title-results h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#results div h3{
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+
+.FileContainer {
+    display: grid;
+}
+
+.FileContainer button {
+    margin-top: 3%;
+}
+
+#buttonSearch,
+#SummitButton,
+#Addlink {
+    width: 15rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 1rem;
+}
+
+#buttonSearch,
+#SummitButton,
+#Addlink:hover {
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+#buttonSearch span,
+#SummitButton span,
+#Addlink span {
+    margin-left: 1rem;
+}
+
+#check {
+    color: #23d129;
+    margin-left: 47%;
+    font-size: 3rem;
+    display: block;
+}
